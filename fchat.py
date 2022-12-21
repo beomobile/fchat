@@ -66,7 +66,7 @@ def show_program():
                     %sINFORMATION%s
  ------------------------------------------------------
 
-    Author     Team chiến binh Salemall
+    Author     Team chien binh Salemall
     Name       Facebook Information
     Version    Full Version
     Date       21/12/2022 
