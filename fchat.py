@@ -66,11 +66,11 @@ def show_program():
                     %sINFORMATION%s
  ------------------------------------------------------
 
-    Author     Team chien binh Salemall
+    Author     Team Chien binh Salemaill
     Name       Facebook Information
     Version    Full Version
     Date       21/12/2022 
-    Jabber     deocomail@salemall.vn
+    Jabber     deocomail@salemall.com
 
 * if you find any errors or problems , please contact
   author
@@ -476,7 +476,7 @@ def menu_reaction_ask():
   try:
 	global type
 
-	cek = raw_input(R + 'Hak9' + W + '/' + R + 'Bot' + W + '/' + R + 'Reaction' + W + ' >> ')
+	cek = raw_input(R + 'Fchat' + W + '/' + R + 'Bot' + W + '/' + R + 'Reaction' + W + ' >> ')
 
 	if cek in ['1','01']:
 		type = 'LIKE'
@@ -558,7 +558,7 @@ def bot():
   try:
 	global type , message , id , WT , token
 
-	cek = raw_input(R + 'Hak9' + W +'/' + R +'Bot ' + W + '>> ')
+	cek = raw_input(R + 'Fchat' + W +'/' + R +'Bot ' + W + '>> ')
 
 	if cek in ['1','01']:
 		menu_reaction()
@@ -911,7 +911,7 @@ def main():
   global target_id
 
   try:
-	cek = raw_input(R + 'Hak9' + W +' >> ')
+	cek = raw_input(R + 'Fchat' + W +' >> ')
 
 	if cek.lower() == 'get_data':
 		if len(jml) == 0:
