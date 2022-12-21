@@ -66,14 +66,14 @@ def show_program():
                     %sINFORMATION%s
  ------------------------------------------------------
 
-    Author     TEAM CHIẾN BINH SALEMALL
+    Author     Team chiến binh Salemall
     Name       Facebook Information
     Version    Full Version
     Date       21/12/2022 
-    Email     deocomaildau@salemall.vn
+    Jabber     deocomail@salemall.vn
 
-* nếu bạn tìm thấy bất kỳ lỗi hoặc vấn đề nào, vui lòng liên hệ
-  tác giả
+* if you find any errors or problems , please contact
+  author
 '''%(G,W)
 def info_ga():
 
@@ -81,24 +81,24 @@ def info_ga():
      %sCOMMAND                      DESCRIPTION%s
   -------------       -------------------------------------
 
-   get_data           lấy tất cả dữ liệu bạn bè
-   get_info           hiển thị thông tin về bạn bè của bạn
+   get_data           fetching all friends data
+   get_info           show information about your friend
 
-   dump_id            lấy tất cả id từ danh sách bạn bè
-   dump_phone         lấy tất cả số điện thoại từ danh sách bạn bè
-   dump_mail          tìm nạp tất cả email từ danh sách bạn bè
-   dump_<id>_id       lấy tất cả id từ bạn bè của bạn <spesific>
+   dump_id            fetching all id from friend list
+   dump_phone         fetching all phone number from friend list
+   dump_mail          fetching all emails from friend list
+   dump_<id>_id       fetching all id from your friends <spesific>
 		      ex: dump_username_id
 
-   token              Tạo mã thông báo truy cập
-   cat_token          hiển thị mã thông báo truy cập của bạn
-   rm_token           xóa mã thông báo truy cập
+   token              Generate access token
+   cat_token          show your access token
+   rm_token           remove access token
 
-   bot                mở menu bot
+   bot                open bot menu
 
    clear              clear terminal
    help               show help
-   about              Hiển thị thông tin về chương trình này
+   about              Show information about this program
    exit               Exit the program
 '''%(G,W)
 def menu_bot():
